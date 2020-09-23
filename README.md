@@ -1,2 +1,2 @@
 # Pemrograman-web-Laravel
-Hanya Laravel Kosongan. Laravel-7
+Tugas Laravel v8.0.1
