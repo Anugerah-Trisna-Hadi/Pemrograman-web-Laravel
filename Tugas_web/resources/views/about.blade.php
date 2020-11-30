@@ -1,5 +1,5 @@
 @extends('master.master')
-@section('title','About')
+@section('title','About - Anugerah Web')
 @section('content')
 <section>
 	<div class="container">
