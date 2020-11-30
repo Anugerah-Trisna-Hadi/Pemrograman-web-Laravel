@@ -21,9 +21,17 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/data', function () {
-    return view('data');
-});
+Route::get('/data', "SiswaController@index");
+
+Route::get('/data_tambah', "SiswaController@create");
+Route::get('/data_hapus/{id}','SiswaController@destroy');
+Route::post('/data_kirim', "SiswaController@store");
+
+/*Route::get('/SiswaController', "SiswaController@show");
+
+Route::get('/SiswaController', "SiswaController@show");
+
+Route::resource('data','SiswaController');*/
 
 // Closure
 
